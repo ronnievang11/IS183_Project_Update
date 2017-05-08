@@ -1,0 +1,41 @@
+<section class="main-section">
+  <div class="book-view">
+    <div class="book-image">
+      <img src="./assets/img/placeholder.png" alt="#">
+    </div>
+    <div class="book-title">
+      <div *ngIf="book">
+        <P class="book-name">{{book.title}}</P>
+        <P class="book-author">{{book.author}}</P>
+      </div>
+    </div>
+    <div class="book-description">
+      <div *ngIf="book"> <!--allows to reload information drawn from API-->
+        <P>{{book.genre}}</P>
+        <p>{{book.description}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="book-details">
+    <div class="hardcover-container">
+      <p class="hardcover-tag">Physical Hardcover</p>
+      <p class="hardcover-tag"> E-Book Available Upon Purchase</p>
+    </div>
+    <div class = "price-container" *ngIf="book">
+      <P>$ {{book.price}}</P>
+    </div>
+    <div class="add-to-cart">
+      <!--<button onclick="submit()" class="cart-button" type="button" name="submit">Add to Cart</button>-->
+          <button class="cart-button" type="button" name="submit" (click)="goToCart()">Add to Cart</button>
+
+    </div>
+    <div class="shipping-details">
+      <p>Eligible for FREE SHIPPING</p>
+      <p>Get it by Tomorrow! Same Day delivery to Fresno, CA. Ensure option is selected during checkout process.</p>
+    </div>
+</div>
+<div class="related-books">
+  <h1>Related Books</h1>
+
+</div>
+</section>

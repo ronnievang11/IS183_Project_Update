@@ -1,0 +1,56 @@
+/* contact*/
+.contact
+	{
+	margin: 0 auto;
+	text-align:left;
+	width:330px;
+	padding:10px;
+	font-size:16px;
+    background-color:#FFF;
+    height:500px;
+	}
+	label
+	{
+		font-size:12px;
+	}
+	.f_name, .l_name, .e_mail
+	{
+		margin:5px;
+		padding:5px;
+		height:15px;
+		border-radius:5px;
+		font-size:12px;
+		width:340px;
+	}	
+	 .message
+	{ 
+		margin:auto;
+		width:350px;
+		height:200px;
+	}
+
+	button.grid-button 
+	{   
+		padding:3px; 
+		margin-bottom:5px;
+		border:1px solid black;
+		height:24px;
+    	cursor:pointer;
+		background-color:transparent;
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px; 
+		font-size:12px;
+		float:right;
+    }
+	#submit
+	{
+        margin: 10px 10px;
+		padding:3px; 
+		border:1px solid black;
+		height:24px;
+    	cursor:pointer;
+		background-color:transparent;
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px; 
+		font-size:12px;
+	}

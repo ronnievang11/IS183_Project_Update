@@ -1,0 +1,12 @@
+/*about*/
+    .about
+    {
+        padding:3%;
+        width:94%;
+        height:auto;
+        background-color:#FFF;
+    }
+	.about img
+	{
+		padding:5px;
+	}

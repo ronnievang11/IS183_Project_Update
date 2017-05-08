@@ -1,0 +1,24 @@
+ /*cart*/
+    aside.summary
+	{
+		width:18%;
+		padding:1%;
+		height:500px;
+		float:right;
+	}
+    .summary ul
+	{
+		list-style-type: none;
+	}
+    section.cart
+	{
+		
+		width:78%;
+		padding:1%;
+		height:auto;
+		float:left;
+        background-color:#FFF;
+	}
+    section.thanks{
+        text-align:center;
+    }

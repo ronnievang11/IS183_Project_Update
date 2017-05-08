@@ -1,0 +1,55 @@
+aside.menu
+	{
+		width:18%;
+		padding:1%;
+		height:500px;
+		float:left;
+	}
+    .menu ul
+	{
+		list-style-type: none;
+	}
+.sidebar-nav li
+	{
+		height:30px;
+	}
+	ul.sidebar-nav a
+	{
+		text-decoration:none;
+		margin:8px 20px;
+		display:block;
+		color:#434343;
+		font-size:15px;
+	}
+	.sidebar-nav a:hover
+	{
+		font-weight:bold;
+	}
+    section.main
+	{
+		
+		width:78%;
+		padding:1%;
+		height:auto;
+		float:right;
+        background-color:#FFF;
+	}
+    .main a
+	{
+		text-decoration:none;
+		color:#434343;
+	}
+    h1 {
+        color:#434343;
+        margin:8px 20px;
+        font-size:20px;
+        font-weight:bold;
+    }
+    table.profile td{
+        padding:8px 20px;
+    }
+    img.profile-pic{
+        width:150px;
+        height:170px;
+    }
+    

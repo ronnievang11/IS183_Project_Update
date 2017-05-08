@@ -1,0 +1,139 @@
+section.main-section {
+    width: 100%;
+    height: 800px;
+    border-top: solid thin;
+    position: relative;
+    flex: 1;
+}
+div.book-view {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    float: left;
+}
+div.book-image {
+    height: 50%;
+    width: 35%;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+div.book-image img {
+    height: 100%;
+    width: 100%;
+}
+div.book-title {
+    height: 30%;
+    width: 50%;
+    float: right;
+    margin-top: -54.7%;
+    border-bottom: solid thin;
+}
+p.book-name {
+    font-size: 28px;
+}
+p.book-author {
+    font-size: 18px;
+    color: #346250;
+}
+div.book-description {
+    height: 70%;
+    width: 50%;
+    float: right;
+    margin-top: -20%;
+}
+div.book-description p {
+    font-size: 14px;
+}
+div.book-details {
+    width: 38%;
+    height: 60%;
+    float: right;
+    border-left: solid thin;
+    margin-top: 1%;
+}
+div.hardcover-container {
+    height: 110px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 9%;
+    border-bottom: solid thin;
+}
+p.hardcover-tag {
+    font-size: 18px;
+    text-align: center;
+}
+p.price-tag {
+    font-size: 18px;
+}
+div.price-container {
+    height: 90px;
+    width: 100px;
+    text-align: center;
+    padding: 13px;
+    margin-left: 30%;
+    margin-top: 8%;
+    font-size: 24px;
+}
+div.related-books {
+    width: 100%;
+    height: 40%;
+    background-color: lightblue;
+    position: absolute;
+    margin-top: 54.7%;
+}
+    div.add-to-cart {
+      height: 70px;
+      width: 200px;
+      margin-left: 24%;
+    }
+    button.cart-button {
+      padding: 15px 30px;
+      border: solid thin;
+      background-color: white;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    button.cart-button:hover {
+      background-color: #A9A9A9;
+      color:black;
+    }
+    div.shipping-details {
+        height: 100px;
+        width: 100%;
+        margin-left: 10%; 
+    }
+    div.shipping-details p {
+        font-size: 14px;
+    }
+    div.book-card {
+    width:20%; 
+    margin:5px;
+    height:250px;
+    padding:5px;
+    float:left;
+    background-color:lightblue;
+}
+section.book-image {
+    width: 90%;
+    height: 180px;
+    margin-left: 5%;
+    background-color: pink;
+    margin-bottom: -12px;
+}
+section.book-image img {
+    width: 100%;
+    height: 100%;
+}
+section.book-details {
+    background-color: pink;
+    margin-bottom: 50%;
+}
+section.book-details p {
+    font-size: 12px;
+}
+p.book-title {
+    font-size: 14px !important;
+    font-weight: 500;
+}

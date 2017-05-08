@@ -1,0 +1,38 @@
+/* login */
+div.login-form {
+        width:300px;
+        height: 250px;
+        margin: 20px auto 0;
+        border-radius:7px;
+        padding:20px;
+        background-color:#FFF;
+    }
+    h1.login-h1 {
+		margin-bottom:15px;
+    }
+	input.login-input {
+        width:100%;
+        padding:5px 2px;
+        border-radius: 5px;
+        margin:7px 0;
+    }
+    button.login-button {
+        padding:5px 15px;
+		border-radius:7px;
+		float:right;
+		background-color:transparent;
+    }
+    p.error-message{
+        display:none;
+        height: 20px;
+        padding:5px;
+        width:100%;
+        color:#fff;
+        background-color:red;
+        border: 1px solid black;
+        border-radius:5px;
+    }
+	.error-message
+	{
+		margin-top:40px;
+	}
