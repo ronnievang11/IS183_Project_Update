@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CategoryService } from './category.service';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'book-category',
@@ -11,6 +13,8 @@ books:Array<Object>;
 
   constructor(
     private categoryService: CategoryService,
+        private router: Router
+
   ) { 
   }
 
@@ -19,7 +23,7 @@ books:Array<Object>;
       this.books = resp;
     });
     console.log('books', this.books);
-  }
+  }   
 
   getBooks() {
     return this.categoryService.getBooks();
@@ -34,4 +38,12 @@ books:Array<Object>;
     this.categoryService.deleteBook(id);
   }
 
+goToCreate() {
+    console.log('go to create....;');
+    this.router.navigate(['create']);
+  }
+  goToCart() {
+    console.log('go to cart....;');
+    this.router.navigate(['cart']);
+  }
 }

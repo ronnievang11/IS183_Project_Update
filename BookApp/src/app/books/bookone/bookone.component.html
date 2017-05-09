@@ -1,0 +1,19 @@
+<ul>
+    <div class="book-card" *ngFor="let book of books | slice:4:5" [routerLink]="['book',book._id] ">
+      <section class="book-image">
+        <img src="./assets/img/placeholder.png">
+      </section>
+      <section class="book-details">
+        <P>{{book.title}}</P>
+        <P>{{book.author}}</P>
+      </section>
+    </div>
+  </ul>
+
+<!--<tr class="book-card" *ngFor="let book of books | slice:4:5" [routerLink]="['book',book._id] ">
+  <td class="book-image"><img src="./assets/img/placeholder.png"></td>
+  <td class="book-details">{{book.title}}</td>
+  <td class="book-details">{{book.id}}</td>
+  <td class="book-details">{{book.description}}</td>
+  <td class="book-details">{{book.price}}</td>
+</tr>-->

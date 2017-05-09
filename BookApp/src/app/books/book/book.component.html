@@ -36,6 +36,19 @@
 </div>
 <div class="related-books">
   <h1>Related Books</h1>
-
+    <bookmore></bookmore>
 </div>
+<ul>  
+      <div class="book-card" *ngFor="let book of books | slice:0:1" [routerLink]="['book',book._id] ">
+        <section class="book-image">
+          <img src="../assets/img/placeholder.png">
+        </section>
+        <section class="book-details">
+          <P class = "book-title">{{book.title}}</P>
+          <P>By {{book.author}}</P>
+          <button (click)="deleteBook(book._id)">X</button>
+        </section>
+      </div>
+    </ul>
+  
 </section>

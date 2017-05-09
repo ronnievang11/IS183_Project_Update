@@ -1,0 +1,49 @@
+  <ul>
+    <div class="book-card" *ngFor="let book of books | slice:4:5" [routerLink]="['book',book._id] ">
+      <section class="book-image">
+        <img src="./assets/img/placeholder.png">
+      </section>
+      <section class="book-details">
+        <P>{{book.title}}</P>
+        <P>{{book.author}}</P>
+      </section>
+      <button class="cart-button" type="button" name="submit" (click)="goToCart()">Add to Cart</button>
+    </div>
+  </ul>
+  <ul>
+    <div class="book-card" *ngFor="let book of books | slice:4:5" [routerLink]="['book',book._id] ">
+      <section class="book-image">
+        <img src="./assets/img/placeholder.png">
+      </section>
+      <section class="book-details">
+        <P>{{book.title}}</P>
+        <P>{{book.author}}</P>
+      </section>
+      <button class="cart-button" type="button" name="submit" (click)="goToCart()">Add to Cart</button>
+    </div>
+  </ul>
+  <ul>
+    <div class="book-card" *ngFor="let book of books | slice:4:5" [routerLink]="['book',book._id] ">
+      <section class="book-image">
+        <img src="./assets/img/placeholder.png">
+      </section>
+      <section class="book-details">
+        <P>{{book.title}}</P>
+        <P>{{book.author}}</P>
+      </section>
+      <button class="cart-button" type="button" name="submit" (click)="goToCart()">Add to Cart</button>
+    </div>
+  </ul>
+  <ul>
+    <div class="book-card" *ngFor="let book of books | slice:4:5" [routerLink]="['book',book._id] ">
+      <section class="book-image">
+        <img src="./assets/img/placeholder.png">
+      </section>
+      <section class="book-details">
+        <P>{{book.title}}</P>
+        <P>{{book.author}}</P>
+        <!--<button (click)="deleteBook(book._id)">X</button>-->
+      </section>
+      <button class="cart-button" type="button" name="submit" (click)="goToCart()">Add to Cart</button>
+    </div>
+  </ul>

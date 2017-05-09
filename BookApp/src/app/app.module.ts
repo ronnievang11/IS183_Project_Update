@@ -21,6 +21,9 @@ import { BookCategoryComponent } from './book-category/book-category.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RecentlyOrderComponent } from './recently-order/recently-order.component';
+import { UserAccountComponent } from './user-account/user-account.component';
+import { BookmoreComponent } from './books/bookmore/bookmore.component';
+import { BookoneComponent } from './books/bookone/bookone.component';
 
 
 // Routes
@@ -35,8 +38,9 @@ const appRoutes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'profile', component: ProfileComponent},
   { path: 'recentlyorder', component: RecentlyOrderComponent},
-
-
+  { path: 'bookmore', component: BookmoreComponent},
+  { path: 'book', component: BookComponent },
+  { path: 'bookone', component: BookoneComponent},
 
 
 
@@ -57,6 +61,9 @@ const appRoutes: Routes = [
     LoginComponent,
     ProfileComponent,
     RecentlyOrderComponent,
+    UserAccountComponent,
+    BookmoreComponent,
+    BookoneComponent,
   ],
   imports: [
     BrowserModule,
